@@ -2,6 +2,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
 
 div .header > h1 {
   text-align: center;
@@ -13,22 +17,32 @@ div .header > h1 {
   text-transform: uppercase;
 }
 
-ul {
-  list-style-type: none;
-  background-color: #d3d3d3;
-  overflow: hidden;
+nav {
+  float: left;
   width: 100%;
+  background-color: #d3d3d3;
+  text-align: center;
+}
+
+nav li {
+  padding: 20px;
+  display: inline-block;
 }
 
 li a {
-  float: left;
-  display: block;
   color: #333;
-  padding: 20px 20px;
 }
 
 
+.feature {
+  background-color: #d3d3d3;
+  padding: 20px;
+}
 
+.column {
+  margin: 15px;
+  background-color: #d3d3d3;
+}
 
 div .footer {
   margin-top: 15px;
