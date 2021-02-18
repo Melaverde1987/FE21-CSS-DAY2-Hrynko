@@ -9,7 +9,6 @@ div .header > h1 {
   text-shadow: -5px 0px 5px #333;
 }
 
-
 .uppercase {
   text-transform: uppercase;
 }
@@ -22,10 +21,10 @@ ul {
 }
 
 li a {
+  float: left;
   display: block;
   color: #333;
   padding: 20px 20px;
-  text-align: center;
 }
 
 
