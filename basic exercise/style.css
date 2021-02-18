@@ -1,5 +1,6 @@
 body {
   font-family: 'Happy Monkey', cursive;
+  line-height: 1.5;
 }
 
 .container {
@@ -15,6 +16,7 @@ p, li {
 
 #header {
   text-align: center;
+  padding: 25px 0px;
 }
 
 h1 {
@@ -29,6 +31,7 @@ h4 {
   color: #474747;
 }
 
+
 .hero {
   background-color: #f4f4f4;
   text-align: center;
@@ -39,7 +42,24 @@ li {
   padding: 5px 0px;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
+.horizontal-line {
+  border-top: 2px solid #f1f1f1;
+}
+
+div > h3 {
+  padding: 30px 0px 10px 0px;
+}
+
+.rating, .footer {
+  padding: 25px 0px;
+  text-align: center;
+}
+
 .stars {
-  color: yellow;
+  color: #F4B400;
   font-size: 25px;
 }
