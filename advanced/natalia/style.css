@@ -40,8 +40,18 @@ li a {
 }
 
 .column {
-  margin: 15px;
+  margin: 15px 0px;
   background-color: #d3d3d3;
+}
+
+.column > p {
+  padding: 20px;
+}
+
+.column1, .column2, .column3 {
+  width: 33%;
+  height: 60px;
+  display: inline-block;
 }
 
 div .footer {
