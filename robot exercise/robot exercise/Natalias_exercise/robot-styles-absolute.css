@@ -1,0 +1,36 @@
+img {
+  width: 50px;
+}
+#face {
+  width: 400px;
+}
+
+/* positioning elements absolute to their parent's position in the document - in this case to the body element */
+
+#eyes2 {
+  position: absolute;
+  top: 180px;
+  left: 150px;
+  width: 125px;
+}
+
+#mouth2 {
+  position: absolute;
+  top: 330px;
+  left: 150px;
+  width: 125px;
+}
+
+#nose2 {
+  position: absolute;
+  top: 230px;
+  left: 170px;
+  width: 80px;
+}
+
+#hair1 {
+  position: absolute;
+  top: -10px;
+  left: 60px;
+  width: 300px;
+}
