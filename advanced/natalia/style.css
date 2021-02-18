@@ -13,12 +13,8 @@ header > h1 {
   text-transform: uppercase;
 }
 
-nav > li {
-  text-align: center;
-}
 ul {
   list-style-type: none;
-  padding: 0;
   background-color: #d3d3d3;
   overflow: hidden;
   width: 100%;
@@ -38,8 +34,8 @@ li a {
 
 
 footer {
-  background-color: #d3d3d3
-  ;
+  margin-top: 15px;
+  background-color: #d3d3d3;
   padding: 20px 0px;
   width: 100%;
   overflow: hidden;
