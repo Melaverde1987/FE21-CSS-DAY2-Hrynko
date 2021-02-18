@@ -1,4 +1,34 @@
-* {
-  margin: 0;
-  padding: 0;
+.container {
+  background-color: aquamarine;
+  width: 800px;
+  margin: 0 auto;
+  padding: 0px 50px;
+  box-shadow: 10px 0px 8px -10px #333, -10px 0px 8px -10px #333; /*you need minus to add shadow on the left side*/
 }
+
+p, li {
+  color: #707070;
+}
+
+#header {
+  text-align: center;
+}
+
+h1 {
+  color: #DB0038;
+}
+
+h2 {
+  color: #3998A3;
+}
+
+h4 {
+  color: #474747;
+}
+
+.hero {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
