@@ -3,7 +3,7 @@ body {
 }
 
 .wrapper {
-  width: 95%;
+  width: 98%;
   margin: 0 auto;
 }
 
@@ -33,10 +33,13 @@ li a {
   color: #333;
 }
 
+.header > .navbar {
+  background-color: blueviolet;
+}
 
 .feature {
-  background-color: #d3d3d3;
-  padding: 20px;
+  background-color: pink;
+  padding: 10px;
 }
 
 .column {
