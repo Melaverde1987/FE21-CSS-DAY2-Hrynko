@@ -18,32 +18,29 @@ div .header > h1 {
 }
 
 nav {
-  float: left;
   width: 100%;
   background-color: #d3d3d3;
   text-align: center;
 }
 
 nav li {
-  padding: 20px;
   display: inline-block;
+  padding: 20px;
 }
 
 li a {
   color: #333;
 }
 
-.header > .navbar {
-  background-color: blueviolet;
-}
-
 .feature {
-  background-color: pink;
+  margin: 15px 0px;
+  height: 60px;
+  background-color: #d3d3d3;
   padding: 10px;
 }
 
 .column {
-  margin: 15px 0px;
+  margin: 15px auto;
   background-color: #d3d3d3;
 }
 
@@ -53,7 +50,7 @@ li a {
 
 .column1, .column2, .column3 {
   width: 33%;
-  height: 60px;
+  height: 90px;
   display: inline-block;
 }
 
