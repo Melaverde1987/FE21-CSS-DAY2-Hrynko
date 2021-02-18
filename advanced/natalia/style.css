@@ -1,0 +1,51 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+header > h1 {
+  text-align: center;
+  padding: 15px 0px;
+  text-shadow: -5px 0px 5px #333;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+nav > li {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: #d3d3d3;
+  overflow: hidden;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #333;
+  padding: 20px 20px;
+}
+
+
+
+
+footer {
+  background-color: #d3d3d3
+  ;
+  padding: 20px 0px;
+  width: 100%;
+  overflow: hidden;
+}
+
+footer > p {
+  text-align: center;
+  color: #333;
+}
